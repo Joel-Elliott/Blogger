@@ -8,5 +8,5 @@
 #
 
 5.times do |i|
-	Article.create(title: "Title #{i}", body: "Body #{i}")
+	Article.create(title: "Title #{i}", body: "Body #{i}<br>Test<br><br><br><br><br><br><br><br><br>NewLines")
 end
